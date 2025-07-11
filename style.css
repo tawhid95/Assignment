@@ -10,10 +10,10 @@
 }
 
 :root {
-    --main-bg-color: #F5F8FF;
+    --body-bg-color: #F5F8FF;
     --primary-color: rgba(78, 71, 255, 1);
     --header-color: rgba(37, 36, 50, 1);
-    --description-color: rgba(37, 36, 50, 0.26);
+    --action-description-color: rgba(37, 36, 50, 0.5);
     --mini-font-color: rgba(0, 0, 0, 0.5);
     --avater-1-color: rgba(117, 117, 117, 1);
     --avater-2-color: rgba(179, 179, 179, 1);
@@ -32,6 +32,7 @@ input {
 
 body {
     font-family: "Raleway", sans-serif;
+    background-color: var(--body-bg-color);
 }
 
                             /*     HEADER    */
@@ -80,6 +81,49 @@ body {
     color: var(--header-color);
     margin-bottom: 37px;
 }
+
+
+.main {
+    margin: 0 auto;
+    max-width: 1140px;
+    
+}
+
+.action_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+    align-items: center;
+}
+
+.section_title {
+    color: var(--header-color);
+}
+
+.action_title {
+    font-size: 42px;
+    font-weight: bold;  
+}
+
+.action_description {
+    color: var(--action-description-color);
+    font-size: 24px;
+    width: 517px;
+    line-height: 30px;
+    margin: 23px auto;
+}
+
+.action_img {
+    width: 403px;
+    height: 325px;
+}
+
+img {
+    border-radius: 48px;
+}
+
+
+
 
 
 
