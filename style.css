@@ -58,7 +58,7 @@ body {
                             /*     HEADER    */
 
 .header {
-    background-image: url('/assignment/Assets/Hero-bg.png');
+    background-image: url('Assets/Hero-bg.png');
     margin: 0 auto;
     height: 698px;
  
