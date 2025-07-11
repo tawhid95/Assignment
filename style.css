@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #F5F8FF;
+    --primary-color: rgba(78, 71, 255, 1);
+    --header-color: rgba(37, 36, 50, 1);
+    --description-color: rgba(37, 36, 50, 0.26);
+    --mini-font-color: rgba(0, 0, 0, 0.5);
+    --avater-1-color: rgba(117, 117, 117, 1);
+    --avater-2-color: rgba(179, 179, 179, 1);
+    --footer-description-color: rgba(137, 135, 161, 1);
+}
+
+button,
+input {
+    border: none;
+}
+
+
+
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+                            /*     HEADER    */
+
+.header {
+    background-image: url('/assignment/Assets/Hero-bg.png');
+    margin: 0 auto;
+    height: 698px;
+ 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.logo {
+    font-family: "Inter", sans-serif;
+    color: var(--primary-color);
+    font-size: 34px;
+    font-weight: 950;
+    line-height: 150%;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.banner {
+    text-align: center;
+    margin: 111px  118px 200px 118px;
+}
+
+.banner_heading {
+    font-size: 85px;
+    font-weight: bold;
+    color: var(--header-color);
+    margin-bottom: 37px;
+}
+
+
+
+
+
+
+
