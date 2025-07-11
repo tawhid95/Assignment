@@ -89,6 +89,7 @@ body {
     font-weight: bold;
     line-height: 150%;
     font-family: "Raleway", sans-serif;
+    cursor: pointer;
 }
 
 .banner {
@@ -138,10 +139,12 @@ body {
 .action_img {
     width: 403px;
     height: 325px;
+    overflow: hidden;
 }
 
 img {
     border-radius: 48px;
+    overflow: hidden;
 }
 
 
@@ -408,4 +411,76 @@ img {
     font-size: 16px;
     line-height: 150%;  
 }
+
+
+
+                            /* general finish */
+
+
+
+                            /*  hover effect */
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #007bff;
+}
+
+.action_img:hover{
+    transform: scale(1.01);
+}
+
+.success_content:hover {
+    box-shadow: 0 8px 20px #007bff;
+    transform: scale(1.00);
+}
+
+.demo_img:hover{
+    box-shadow: 0 8px 20px #007bff;
+    
+}
+
+.testimonials_item:hover {
+    box-shadow: 0 8px 20px #007bff;
+    transform: scale(1.00);
+}
+
+
+.avater_name:hover{
+    color: var(--primary-color);
+}
+
+
+
+
+.input:hover {
+    box-shadow: 0 8px 20px #007bff;
+    transform: translateY(-5px); 
+       
+}
+
+
+.link_list ul li a:hover{
+    /* box-shadow: 0 8px 20px #007bff; */
+    transform: translateY(-5px);    
+    font-size: 26px;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
