@@ -14,10 +14,12 @@
     --primary-color: rgba(78, 71, 255, 1);
     --header-color: rgba(37, 36, 50, 1);
     --action-description-color: rgba(37, 36, 50, 0.5);
+    --success-bg-color:rgba(78, 71, 255, 0.1);
     --mini-font-color: rgba(0, 0, 0, 0.5);
     --avater-1-color: rgba(117, 117, 117, 1);
     --avater-2-color: rgba(179, 179, 179, 1);
     --footer-description-color: rgba(137, 135, 161, 1);
+    
 }
 
 button,
@@ -68,6 +70,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     line-height: 150%;
+    font-family: "Raleway", sans-serif;
 }
 
 .banner {
@@ -82,12 +85,13 @@ body {
     margin-bottom: 37px;
 }
 
-
+                                /*   Main  */
 .main {
     margin: 0 auto;
     max-width: 1140px;
     
 }
+                                /*   Section Action */
 
 .action_container {
     display: flex;
@@ -123,7 +127,49 @@ img {
 }
 
 
+                                  /* Section Success */
 
+
+.success_container {
+    margin: 116px auto 137px; 
+}
+
+.success_content {
+    background-color: var(--success-bg-color);
+    padding: 50px 80px;
+    border-radius: 24px;
+
+}
+ 
+ .success_title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+ 
+.success_items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 158px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.success_number {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.success_description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: var(--mini-font-color);
+}
 
 
 
